@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/lib-auth",
+    "crates/lib-core",
+    "crates/lib-rpc",
+    "crates/lib-utils",
+    "crates/lib-entity",
+    "services/web-server",
+    "migration"
+]
